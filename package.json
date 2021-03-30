@@ -1,0 +1,29 @@
+{
+  "name": "kdproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilpokharel44/kdProject.git"
+  },
+  "author": "Nikhil Pokharel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikhilpokharel44/kdProject/issues"
+  },
+  "homepage": "https://github.com/nikhilpokharel44/kdProject#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "mongoose": "^5.12.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
